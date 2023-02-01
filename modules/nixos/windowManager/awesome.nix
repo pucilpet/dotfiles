@@ -42,7 +42,7 @@ in {
       displayManager = {
         autoLogin = {
           enable = true;
-          user = "rxyhn";
+          user = "pucilpet";
         };
 
         defaultSession = "none+awesome";

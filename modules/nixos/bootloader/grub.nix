@@ -48,8 +48,8 @@ in {
         configurationLimit = 3;
         gfxmodeEfi = "1920x1080";
         theme = pkgs.fetchzip {
-          # https://github.com/AdisonCavani/distro-grub-themes
-          url = "https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/themes/lenovo.tar";
+          # https://github.com/AddisonCavani/distro-grub-themes
+          url = "https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/themes/hp.tar";
           hash = "sha256-6ZevSnSNJ/Q67DTNJj8k4pjOjWZFj0tG0ljG3gwbLuc=";
           stripRoot = false;
         };

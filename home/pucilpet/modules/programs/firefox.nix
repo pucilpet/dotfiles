@@ -22,7 +22,7 @@
     ];
 
     profiles = {
-      rxyhn = {
+      pucilpet = {
         id = 0;
         settings = {
           "general.smoothScroll" = true;

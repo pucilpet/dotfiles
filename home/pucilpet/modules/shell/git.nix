@@ -15,12 +15,8 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    userName = "rxyhn";
-    userEmail = "rxyhn.dev@gmail.com";
-    signing = {
-      key = "F01BC62D2BAE2122";
-      signByDefault = true;
-    };
+    userName = "Petteri Pucilowski";
+    userEmail = "petteri@hersecret.fi"
 
     delta = {
       enable = true;

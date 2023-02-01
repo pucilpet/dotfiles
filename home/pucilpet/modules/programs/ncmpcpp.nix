@@ -3,9 +3,9 @@
     enable = true;
     package = pkgs.ncmpcpp;
     settings = {
-      ncmpcpp_directory = "/home/rxyhn/.config/ncmpcpp";
+      ncmpcpp_directory = "/home/pucilpet/.config/ncmpcpp";
       mpd_crossfade_time = 2;
-      lyrics_directory = "/home/rxyhn/.cache/lyrics";
+      lyrics_directory = "/home/pucilpet/.cache/lyrics";
       progressbar_look = "▃▃▃";
       progressbar_elapsed_color = 5;
       progressbar_color = "black";

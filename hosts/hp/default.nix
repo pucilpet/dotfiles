@@ -7,6 +7,8 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
+    # Imports nvidia ext display to grub
+    ./Nvidia.nix
 
     # Shared configuration across all machines
     ../shared
@@ -18,7 +20,9 @@
 
     # Make modules available to modprobe
     extraModulePackages = with config.boot.kernelPackages; [acpi_call];
-
+    
+    #add ntfs support
+    supportedFilesystems = [ "ntfs" ];
     initrd = {
       systemd.enable = true;
       supportedFilesystems = ["btrfs"];
@@ -28,13 +32,6 @@
     kernelModules = ["acpi_call"];
 
     # Kernel parameters
-    kernelParams = [
-      "i915.force_probe=46a6"
-      "i915.enable_psr=0"
-      "i915.enable_guc=2"
-      "i8042.direct"
-      "i8042.dumbkbd"
-    ];
   };
 
   hardware = {
@@ -62,6 +59,9 @@
   services = {
     btrfs.autoScrub.enable = true;
     acpid.enable = true;
+    #add tailscale
+    tailscale.enable = true;
+
     thermald.enable = true;
     upower.enable = true;
 

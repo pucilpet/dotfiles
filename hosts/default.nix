@@ -11,7 +11,7 @@
           useGlobalPkgs = true;
           useUserPackages = true;
           extraSpecialArgs = {inherit inputs outputs;};
-          users.rxyhn = ../home/rxyhn;
+          users.pucilpet = ../home/pucilpet;
         };
       }
     ]
@@ -20,8 +20,8 @@ in {
   lenovo = outputs.lib.nixosSystem {
     modules =
       [
-        ./lenovo
-        {networking.hostName = "lenovo";}
+        ./hp
+        {networking.hostName = "hp-petteri";}
       ]
       ++ sharedModules;
 
