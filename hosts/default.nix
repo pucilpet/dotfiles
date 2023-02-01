@@ -17,7 +17,7 @@
     ]
     ++ (builtins.attrValues outputs.nixosModules);
 in {
-  lenovo = outputs.lib.nixosSystem {
+  hp = outputs.lib.nixosSystem {
     modules =
       [
         ./hp
