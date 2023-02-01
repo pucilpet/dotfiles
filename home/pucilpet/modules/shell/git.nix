@@ -16,7 +16,7 @@
     enable = true;
     lfs.enable = true;
     userName = "Petteri Pucilowski";
-    userEmail = "petteri@hersecret.fi"
+    userEmail = "petteri@hersecret.fi";
 
     delta = {
       enable = true;
