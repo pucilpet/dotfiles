@@ -29,7 +29,7 @@ in {
         modesetting.enable = true;
         powerManagement = {
           enable = true;
-          finegrained = true;
+          finegrained = false;
         };
 
         prime = {
