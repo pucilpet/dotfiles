@@ -6,6 +6,7 @@
     ./mpd.nix
     ./mpv.nix
     ./ncmpcpp.nix
+    ./wezterm.nix
     ./vscode.nix
     ./zathura.nix
   ];
