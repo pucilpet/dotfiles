@@ -17,7 +17,11 @@
     lfs.enable = true;
     userName = "Petteri Pucilowski";
     userEmail = "petteri@hersecret.fi";
-
+    signing = {
+      key = "9CD2B8CA995C63B9";
+      signByDefault = true;
+    };
+    
     delta = {
       enable = true;
       options.map-styles = "bold purple => syntax #8839ef, bold cyan => syntax #1e66f5";
