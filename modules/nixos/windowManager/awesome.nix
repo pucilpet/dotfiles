@@ -58,7 +58,7 @@ in {
 
       dpi = 144;
       exportConfiguration = true;
-      layout = "${cfg.layout}";
+      layout = "fi";
 
       libinput = {
         enable = true;
