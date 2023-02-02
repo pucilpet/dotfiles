@@ -81,7 +81,7 @@ NixOS / Home-Manager / Flake
 
 2. Boot into the installer.
 
-3. Switch to root user: `sudo -i`
+3. Switch to root user: `sudo -i` then increase the allowed number of open files with `ulimit -n 65536`
 
 4. Partitioning
 
@@ -142,7 +142,7 @@ NixOS / Home-Manager / Flake
 
 5. Enable flakes
     ```bash
-    $ nix-shell -p nixFlakes
+    $ nix-shell -p nixFlakes git
     ```
 
 6. Install nixos from flake
