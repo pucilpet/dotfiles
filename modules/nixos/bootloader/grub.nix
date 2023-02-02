@@ -50,7 +50,7 @@ in {
         theme = pkgs.fetchzip {
           # https://github.com/AddisonCavani/distro-grub-themes
           url = "https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/themes/hp.tar";
-          hash = "sha256-6ZevSnSNJ/Q67DTNJj8k4pjOjWZFj0tG0ljG3gwbLuc=";
+          hash = "sha256-dJcJWpZswYOVKoDB37GGMcZ43/FFc+gKZfDeN29tnBk=";
           stripRoot = false;
         };
       };
