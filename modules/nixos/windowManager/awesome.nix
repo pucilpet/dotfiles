@@ -12,7 +12,7 @@ in {
 
     layout = mkOption {
       type = types.str;
-      default = "us";
+      default = "fi";
       description = "The keyboard layout to use for the X server.";
     };
   };
