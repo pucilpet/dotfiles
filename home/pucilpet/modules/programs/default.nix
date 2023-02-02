@@ -7,7 +7,6 @@
     ./mpv.nix
     ./ncmpcpp.nix
     ./vscode.nix
-    ./wezterm.nix
     ./zathura.nix
   ];
 }
