@@ -93,7 +93,6 @@
       alsa-lib
       alsa-plugins
       alsa-tools
-      git
       alsa-utils
       arandr
       blueberry
