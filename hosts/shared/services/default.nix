@@ -3,7 +3,7 @@
     ./dbus.nix
     ./gnome.nix
     ./logind.nix
-    ./pipewire.nix
+    #  ./pipewire.nix
     ./ssh.nix
   ];
 }

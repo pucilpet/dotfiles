@@ -47,7 +47,7 @@
     };
 
     enableRedistributableFirmware = true;
-    pulseaudio.enable = false;
+    pulseaudio.enable = true;
   };
 
   # compresses half the ram for use as swap
@@ -118,6 +118,9 @@
       scrcpy
       gotop
       spotify
+      xfce
+      flameshot
+      thunar
     ];
   };
 

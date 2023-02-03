@@ -33,12 +33,14 @@ user_vars = {
 	-- Write the terminal command to start anything here
 	autostart = {
 		"picom --experimental-backends",
+		"nextcloud-client",
+		"element-desktop",
 	},
 
 	-- Type 'ip a' and check your wlan and ethernet name
 	network = {
 		wlan = "wlo1",
-		ethernet = "eno1",
+		ethernet = "enp5s0f3u1u2",
 	},
 
 	-- Set your font with this format:
@@ -62,10 +64,10 @@ user_vars = {
 	namestyle = "userhost",
 
 	-- List every Keyboard layout you use here comma seperated. (run localectl list-keymaps to list all averiable keymaps)
-	kblayout = { "de", "ru" },
+	kblayout = { "fi", "us" },
 
 	-- Your filemanager that opens with super+e
-	file_manager = "thunar",
+	file_manager = "nemo",
 
 	-- Screenshot program to make a screenshot when print is hit
 	screenshot_program = "flameshot gui",
