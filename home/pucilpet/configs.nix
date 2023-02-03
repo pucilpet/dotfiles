@@ -11,7 +11,7 @@
     recursive = true;
   };
   xdg.configFile.picom = {
-    source = ./config/picom.conf;
+    source = ./config/picom;
   };
   xdg.configFile.rofi = {
     source = ./config/rofi;
