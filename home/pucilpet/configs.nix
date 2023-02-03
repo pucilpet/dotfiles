@@ -10,8 +10,11 @@
     source = ./config/awesome;
     recursive = true;
   };
-  xdg.configFile.gtk3 = {
-    source = ./config/gtk-3.0;
+  xdg.configFile.picom = {
+    source = ./config/picom.conf;
+  };
+  xdg.configFile.rofi = {
+    source = ./config/rofi;
     recursive = true;
   };
 }

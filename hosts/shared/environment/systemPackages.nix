@@ -17,8 +17,10 @@
     playerctl
     picom-jonaburg
     pulseaudio-ctl
-    hilbish
     emoji-picker
     spicetify-cli
+    bluez
+    bluez-tools
+    lightlocker
   ];
 }
