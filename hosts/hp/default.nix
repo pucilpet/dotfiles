@@ -55,7 +55,7 @@
     enable = true;
     memoryPercent = 50;
   };
-
+  location.provider = "geoclue2"
   services = {
     btrfs.autoScrub.enable = true;
     acpid.enable = true;
@@ -64,6 +64,19 @@
 
     thermald.enable = true;
     upower.enable = true;
+    # redshift config
+    redshift = {
+      enable = true;
+    brightness = {
+      # Note the string values below.
+      day = "1";
+      night = "0.8";
+      };
+    temperature = {
+      day = 5500;
+      night = 3700;
+      };
+    }
 
     tlp = {
       enable = true;

@@ -35,6 +35,8 @@ user_vars = {
 		"picom --experimental-backends",
 		"nextcloud-client",
 		"element-desktop",
+		"spotify",
+		"onlyoffice-desktopeditors"
 	},
 
 	-- Type 'ip a' and check your wlan and ethernet name
