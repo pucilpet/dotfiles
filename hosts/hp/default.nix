@@ -20,9 +20,9 @@
 
     # Make modules available to modprobe
     extraModulePackages = with config.boot.kernelPackages; [acpi_call];
-    
+
     #add ntfs support
-    supportedFilesystems = [ "ntfs" ];
+    supportedFilesystems = ["ntfs"];
     initrd = {
       systemd.enable = true;
       supportedFilesystems = ["btrfs"];
@@ -107,6 +107,16 @@
       vulkan-loader
       vulkan-validation-layers
       vulkan-tools
+      nextcloud-client
+      onlyoffice-bin
+      element-desktop
+      gimp
+      imagemagick
+      borgbackup
+      unzip
+      feh
+      scrcpy
+      gotop
     ];
   };
 

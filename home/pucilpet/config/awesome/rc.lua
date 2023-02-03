@@ -212,7 +212,7 @@ globalkeys = gears.table.join(
 	awful.key({ modkey }, "u", awful.client.urgent.jumpto),
 
 	-- Standard programs
-	awful.key({ modkey, "Shift" }, "Return", spawn_proc(terminal)),
+	awful.key({ modkey }, "Return", spawn_proc(terminal)),
 	awful.key({ modkey, "Shift" }, "h", spawn_proc(terminal .. " -e htop")),
 	awful.key({ modkey, "Shift" }, "p", spawn_proc(terminal .. " -e python")),
 	awful.key({ modkey, "Shift" }, "e", spawn_proc(browser)),
@@ -253,7 +253,7 @@ clientkeys = gears.table.join(
 		c.fullscreen = not c.fullscreen
 		c:raise()
 	end),
-	awful.key({ modkey, "Shift" }, "c", function(c)
+	awful.key({ modkey }, "q", function(c)
 		c:kill()
 	end),
 	awful.key({ modkey }, "Return", function(c)

@@ -13,6 +13,7 @@
         noto-fonts-cjk
         noto-fonts-emoji
         sf-mono-liga
+        jetbrains-mono
         ;
     };
 

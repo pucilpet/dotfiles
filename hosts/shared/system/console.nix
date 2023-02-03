@@ -5,6 +5,6 @@
   in {
     colors = normal ++ bright;
     font = "${pkgs.terminus_font}/share/consolefonts/ter-u28n.psf.gz";
-    keyMap = "us";
+    keyMap = "fi";
   };
 }
