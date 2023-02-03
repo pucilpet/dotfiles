@@ -55,8 +55,8 @@
     enable = true;
     memoryPercent = 50;
   };
-  location.latitude = "62,897968";
-  location.longitude = "27,678171";
+  location.latitude = 62.897968;
+  location.longitude = 27.678171;
 
   services = {
     btrfs.autoScrub.enable = true;
