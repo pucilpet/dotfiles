@@ -15,6 +15,7 @@
         sf-mono-liga
         jetbrains-mono
         meslo-lgs-nf
+        montserrat
         ;
     };
 

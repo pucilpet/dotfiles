@@ -117,6 +117,7 @@
       feh
       scrcpy
       gotop
+      spotify
     ];
   };
 

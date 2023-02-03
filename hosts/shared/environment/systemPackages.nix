@@ -22,5 +22,6 @@
     bluez
     bluez-tools
     lightlocker
+    papirus-icon-theme
   ];
 }
