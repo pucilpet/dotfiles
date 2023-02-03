@@ -10,4 +10,8 @@
     source = ./config/awesome;
     recursive = true;
   };
+  xdg.configFile.gtk3 = {
+    source = ./config/gtk-3.0;
+    recursive = true;
+  };
 }

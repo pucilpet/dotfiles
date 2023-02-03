@@ -14,5 +14,11 @@
     unzip
     wget
     zip
+    playerctl
+    picom-jonaburg
+    pulseaudio-ctl
+    hilbish
+    emoji-picker
+    spicetify-cli
   ];
 }
