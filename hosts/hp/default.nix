@@ -118,9 +118,9 @@
       scrcpy
       gotop
       spotify
-      xfce
       flameshot
-      thunar
+      xfce.thunar
+      xfce.xfce4-power-manager
     ];
   };
 
