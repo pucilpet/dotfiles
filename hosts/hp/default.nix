@@ -55,7 +55,9 @@
     enable = true;
     memoryPercent = 50;
   };
-  location.provider = "geoclue2"
+  location.latitude = "62,897968";
+  location.longitude = "27,678171";
+
   services = {
     btrfs.autoScrub.enable = true;
     acpid.enable = true;
@@ -67,16 +69,16 @@
     # redshift config
     redshift = {
       enable = true;
-    brightness = {
-      # Note the string values below.
-      day = "1";
-      night = "0.8";
+      brightness = {
+        # Note the string values below.
+        day = "1";
+        night = "0.8";
       };
-    temperature = {
-      day = 5500;
-      night = 3700;
+      temperature = {
+        day = 5500;
+        night = 3700;
       };
-    }
+    };
 
     tlp = {
       enable = true;
@@ -134,6 +136,7 @@
       flameshot
       xfce.thunar
       xfce.xfce4-power-manager
+      syncthing
     ];
   };
 
