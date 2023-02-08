@@ -137,6 +137,9 @@
       xfce.thunar
       xfce.xfce4-power-manager
       syncthing
+      calc
+      filezilla
+      python3
     ];
   };
 

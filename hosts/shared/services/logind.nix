@@ -1,9 +1,9 @@
 {
   services.logind = {
-    lidSwitch = "suspend-then-hibernate";
-    lidSwitchExternalPower = "lock";
+    lidSwitch = "suspend";
+    lidSwitchExternalPower = "suspend";
     extraConfig = ''
-      HandlePowerKey=suspend-then-hibernate
+      HandlePowerKey=suspend
       HibernateDelaySec=3600
     '';
   };

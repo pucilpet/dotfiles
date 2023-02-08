@@ -33,10 +33,10 @@ user_vars = {
 	-- Write the terminal command to start anything here
 	autostart = {
 		"picom --experimental-backends",
-		"nextcloud-client",
+		"nextcloud",
 		"element-desktop",
 		"spotify",
-		"onlyoffice-desktopeditors"
+		"onlyoffice-desktopeditors",
 	},
 
 	-- Type 'ip a' and check your wlan and ethernet name

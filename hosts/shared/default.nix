@@ -17,6 +17,7 @@
   programs = {
     dconf.enable = true;
     seahorse.enable = true;
+    xss-lock.enable = true;
   };
 
   services = {
