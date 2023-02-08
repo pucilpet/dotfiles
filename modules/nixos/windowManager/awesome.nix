@@ -41,7 +41,7 @@ in {
       enable = true;
       displayManager = {
         autoLogin = {
-          enable = true;
+          enable = false;
           user = "pucilpet";
         };
 
@@ -56,7 +56,7 @@ in {
         };
       };
 
-      dpi = 144;
+      dpi = 120;
       exportConfiguration = true;
       layout = "fi";
 
